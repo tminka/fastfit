@@ -1,11 +1,15 @@
-# fastfit
 Fastfit
 =======
 
-A matlab toolbox for efficient maximum-likelihood estimation of Dirichlet and Polya distributions using generalized Newton iterations.
-The code was written by Thomas P. Minka and is based on the paper ["Estimating a Dirichlet distribution"][estimating].
+This toolbox implements efficient maximum-likelihood estimation of various
+distributions.  It utilizes the technique of generalized Newton iteration,
+described in the following papers:
 
-[estimating]: http://research.microsoft.com/en-us/um/people/minka/papers/dirichlet/
+* [Beyond Newton's method](http://research.microsoft.com/~minka/papers/newton.html)
+* [Estimating a Dirichlet distribution](http://research.microsoft.com/~minka/papers/dirichlet/)
+* [Estimating a Gamma distribution](http://research.microsoft.com/~minka/papers/minka-gamma.pdf)
+
+This toolbox is based on the [Lightspeed toolbox](http://research.microsoft.com/~minka/software/lightspeed/), so you will need to install both.
 
 See Contents.m for more details.
 
