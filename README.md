@@ -9,8 +9,10 @@ described in the following papers:
 * [Estimating a Dirichlet distribution](http://research.microsoft.com/~minka/papers/dirichlet/)
 * [Estimating a Gamma distribution](http://research.microsoft.com/~minka/papers/minka-gamma.pdf)
 
-This toolbox is based on the [Lightspeed toolbox](http://research.microsoft.com/~minka/software/lightspeed/), so you will need to install both.
+This toolbox requires the [Lightspeed toolbox](https://github.com/tminka/lightspeed/), so you will need to install both.
 
 See Contents.m for more details.
 
 A python port is available at https://github.com/ericsuh/dirichlet
+
+Tom Minka
